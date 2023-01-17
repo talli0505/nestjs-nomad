@@ -30,7 +30,6 @@ export class MoviesService {
     this.movies.push({
       id: this.movies.length + 1,
       ...movieData,
-      year: 0
     });
   }
 
